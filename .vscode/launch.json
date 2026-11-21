@@ -1,0 +1,54 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-EurekaServerApplication<eureka-server>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "cl.duoc.pagoflex.eureka.EurekaServerApplication",
+      "projectName": "eureka-server",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-ApiGatewayApplication<api-gateway>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "cl.duoc.pagoflex.api_gateway.ApiGatewayApplication",
+      "projectName": "api-gateway",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-UsuariosServiceApplication<usuarios-service>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "cl.duoc.pagoflex.usuarios_service.UsuariosServiceApplication",
+      "projectName": "usuarios-service",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-CobranzaServiceApplication<cobranza-service>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "cl.duoc.pagoflex.cobranza_service.CobranzaServiceApplication",
+      "projectName": "cobranza-service",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-SoporteServiceApplication<soporte-service>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "cl.duoc.pagoflex.soporte_service.SoporteServiceApplication",
+      "projectName": "soporte-service",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}
